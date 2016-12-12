@@ -1,0 +1,1 @@
+spark-submit --class Spark.Assignment3.KNN --master local[4] target/Assignment3-0.0.1-SNAPSHOT.jar datasets/train_spark_KEEL.dat datasets/test_spark_KEEL.dat  10 > log
